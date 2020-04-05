@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<title>Hello from Flask</title>
+{% if name %}
+<h1>Hello {{ name }}!</h1>
+{% else %}
+<h1>Hello, World!</h1>
+{% endif %}
+
+{% if marks>50 %}
+<h1> Your result is pass!</h1>
+{% else %}
+<h1>Your result is fail</h1>
+{% endif %}
